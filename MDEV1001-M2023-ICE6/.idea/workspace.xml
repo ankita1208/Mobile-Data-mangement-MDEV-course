@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="71ffa3bc-2514-46e2-9fcc-e2ffe9651eb0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../MDEV1001-M2023-ICE5/MDEV1001-M2023-ICE4.xcodeproj/project.xcworkspace/xcuserdata/ankitasharma.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../MDEV1001-M2023-ICE5/MDEV1001-M2023-ICE4.xcodeproj/project.xcworkspace/xcuserdata/ankitasharma.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MDEV1001-M2023-ICE4.xcodeproj/project.xcworkspace/xcuserdata/ankitasharma.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/MDEV1001-M2023-ICE4.xcodeproj/project.xcworkspace/xcuserdata/ankitasharma.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MDEV1001M2023ICE4ANDROID" beforeDir="false" afterPath="$PROJECT_DIR$/../MDEV1001M2023ICE4ANDROID" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MDEV1001M2023ICE5ANDROID" beforeDir="false" afterPath="$PROJECT_DIR$/../MDEV1001M2023ICE5ANDROID" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RLqugJW38KrZU8ApZKxnsp2QSt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71ffa3bc-2514-46e2-9fcc-e2ffe9651eb0" name="Changes" comment="" />
+      <created>1687039933689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687039933689</updated>
+    </task>
+    <servers />
+  </component>
+</project>

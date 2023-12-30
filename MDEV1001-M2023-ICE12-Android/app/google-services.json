@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "82028275109",
+    "firebase_url": "https://mdev1001-ice-default-rtdb.firebaseio.com",
+    "project_id": "mdev1001-ice",
+    "storage_bucket": "mdev1001-ice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82028275109:android:b814d5f6fab5bf8cadf44c",
+        "android_client_info": {
+          "package_name": "com.example.ICE11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82028275109-ot9k7ur0n17ddbahf71aokptur33ik7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADyYAwrfId6kvcpYavp4v7c5eL1Dvtx3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82028275109-ot9k7ur0n17ddbahf71aokptur33ik7i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "82028275109-d6nttdt54vekfp5b32ih7om2jb7jlsiu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ICE11"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82028275109:android:a4c56c85492c8da3adf44c",
+        "android_client_info": {
+          "package_name": "com.example.ICE12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82028275109-ot9k7ur0n17ddbahf71aokptur33ik7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADyYAwrfId6kvcpYavp4v7c5eL1Dvtx3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82028275109-ot9k7ur0n17ddbahf71aokptur33ik7i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "82028275109-d6nttdt54vekfp5b32ih7om2jb7jlsiu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ICE11"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

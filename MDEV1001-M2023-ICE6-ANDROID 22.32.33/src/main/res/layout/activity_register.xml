@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarTL"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titleTextTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register New User"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/addBT"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/firstNameTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="First Name"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarTL" />
+
+    <EditText
+        android:id="@+id/firstNameET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@id/firstNameTV"
+        app:layout_constraintStart_toStartOf="@id/firstNameTV"
+        app:layout_constraintTop_toBottomOf="@id/firstNameTV" />
+
+    <TextView
+        android:id="@+id/lastNameTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Last Name"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/firstNameET"
+        app:layout_constraintStart_toStartOf="@id/firstNameET"
+        app:layout_constraintTop_toBottomOf="@id/firstNameET" />
+
+    <EditText
+        android:id="@+id/lastNameET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@id/firstNameTV"
+        app:layout_constraintStart_toStartOf="@id/firstNameTV"
+        app:layout_constraintTop_toBottomOf="@id/lastNameTV" />
+
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email Address"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/firstNameET"
+        app:layout_constraintStart_toStartOf="@id/firstNameET"
+        app:layout_constraintTop_toBottomOf="@id/lastNameET" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@id/firstNameTV"
+        app:layout_constraintStart_toStartOf="@id/firstNameTV"
+        app:layout_constraintTop_toBottomOf="@id/emailTV" />
+
+    <TextView
+        android:id="@+id/usernameTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Username"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/firstNameET"
+        app:layout_constraintStart_toStartOf="@id/firstNameET"
+        app:layout_constraintTop_toBottomOf="@id/emailET" />
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@id/firstNameTV"
+        app:layout_constraintStart_toStartOf="@id/firstNameTV"
+        app:layout_constraintTop_toBottomOf="@id/usernameTV" />
+
+    <TextView
+        android:id="@+id/passwordTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/firstNameET"
+        app:layout_constraintStart_toStartOf="@id/firstNameET"
+        app:layout_constraintTop_toBottomOf="@id/usernameET" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@id/firstNameTV"
+        app:layout_constraintStart_toStartOf="@id/firstNameTV"
+        app:layout_constraintTop_toBottomOf="@id/passwordTV" />
+
+    <TextView
+        android:id="@+id/confirmpassTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Confirm Password"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/firstNameET"
+        app:layout_constraintStart_toStartOf="@id/firstNameET"
+        app:layout_constraintTop_toBottomOf="@id/passwordET" />
+
+    <EditText
+        android:id="@+id/confirmpassET"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@id/firstNameET"
+        app:layout_constraintStart_toStartOf="@id/firstNameET"
+        app:layout_constraintTop_toBottomOf="@id/confirmpassTV" />
+
+    <Button
+        android:id="@+id/cancelBT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Cancel"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@id/registerBT"
+        app:layout_constraintStart_toStartOf="@id/confirmpassET"
+        app:layout_constraintTop_toBottomOf="@id/confirmpassET" />
+
+    <Button
+        android:id="@+id/registerBT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Register"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/confirmpassET"
+        app:layout_constraintStart_toEndOf="@id/cancelBT"
+        app:layout_constraintTop_toBottomOf="@id/confirmpassET" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
